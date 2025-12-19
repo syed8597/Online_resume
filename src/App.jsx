@@ -4,7 +4,7 @@ import MainContent from './components/MainContent';
 import MobileMenuButton from './components/MobileMenuButton';
 
 export default function App() {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(true);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">

@@ -1,15 +1,16 @@
 import React from 'react';
 import { Code } from 'lucide-react';
+import profileImage from '../.././assets/profileImage.jpg';
 
 export default function ProfileSection() {
   return (
     <div className="text-center mb-8">
       <div className="relative inline-block">
         <img
-          src="src\assets\profileImage.jpg"
-          alt="Profile"
-          className="w-32 h-32 rounded-full object-cover object-top border-4 border-emerald-400 shadow-xl mx-auto mb-4"
-        />
+      src={profileImage}
+      alt="Profile"
+      className="w-32 h-32 rounded-full object-cover object-top border-4 border-emerald-400 shadow-xl mx-auto mb-4"
+    />
         <div className="absolute -bottom-2 -right-2 bg-emerald-400 rounded-full p-2">
           <Code size={20} className="text-slate-900" />
         </div>
